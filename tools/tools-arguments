@@ -1,0 +1,93 @@
+
+
+Required Arguments for Python Scripts
+
+
+dns-hostname-scanning.py
+
+Required arguments: target_domain
+
+Example usage: python dns-hostname-scanning.py example.com
+
+
+firewall-and-acl-testing.py
+
+Required arguments: target_ip, port_range
+
+Example usage: python firewall-and-acl-testing.py 192.168.1.1 20-80
+
+
+ipscanning.py
+
+Required arguments: network_range
+
+Example usage: python ipscanning.py 192.168.1.0/24
+
+
+port-scanning.py
+
+Required arguments: target_ip, port_range
+
+Example usage: python port-scanning.py 192.168.1.1 20 80
+
+
+protocol-ana.py
+
+Required arguments: interface
+
+Example usage: python protocol-ana.py eth0
+
+
+service-detect.py
+
+Required arguments: target_ip, port_range
+
+Example usage: python service-detect.py 192.168.1.1 20-80
+
+
+subnet-vlan-scanning.py
+
+Required arguments: network_range
+
+Example usage: python subnet-vlan-scanning.py 192.168.1.0/24
+
+
+test-latency.py
+
+Required arguments: target_host
+
+Example usage: python test-latency.py google.com
+
+
+-------------------------------------------------------------------------
+
+Tools that Require a Single IP or Hostname:
+
+    ipscanning.py → target_ip
+
+    test-latency.py → target_ip
+
+    dns-hostname-scanning.py → target_domain
+
+
+Tools that Require an IP Address and a Port or Range of Ports:
+
+    port-scanning.py → target_ip, port_range
+
+    service-detect.py → target_ip, port_range
+
+
+Tools that Require a Subnet or Network Range:
+
+    subnet-vlan-scanning.py → subnet_range
+
+    ipscanning.py → subnet_range
+
+
+Tools that Require a Protocol Name or Type:
+
+    protocol-ana.py → protocol_name
+
+    firewall-and-acl-testing.py → protocol_name
+
+

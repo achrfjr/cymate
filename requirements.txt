@@ -1,0 +1,26 @@
+# Core HTTP/Network
+requests>=2.25.1
+urllib3>=1.26.0
+
+# Network Security Tools
+scapy>=2.4.0
+python-nmap>=0.6.1
+ping3>=2.6.0
+dnspython>=2.1.0
+
+# Cryptography
+cryptography>=3.4.0
+bcrypt>=3.2.0
+argon2-cffi>=21.0.0
+
+# Data Parsing
+packaging>=20.0
+pyyaml>=5.4.0
+
+# CLI & Output
+argparse
+colorama>=0.4.0
+
+# Monitoring
+prometheus-client>=0.10.0
+statsd>=3.3.0

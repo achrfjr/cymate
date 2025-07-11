@@ -1,0 +1,3 @@
+
+ALTER TABLE SecurityTools
+ADD COLUMN path TEXT;
